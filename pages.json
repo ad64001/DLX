@@ -1,0 +1,1368 @@
+{
+	"easycom": {
+		// npm安装的方式不需要前面的"@/"，下载安装的方式需要"@/"
+		// npm安装方式
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		// 下载安装方式
+		// "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/IPset/IPset",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "IP设置",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新用户注册",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/user/userS/userS",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的信息",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/user/userS/passwd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/user/userS/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/user/userS/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/news/newsMore/newsMore",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/hospital/hospital",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "门诊预约",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/hospital/moreH/moreH",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "医院详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/hospital/moreH/moreY",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约挂号",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/hospital/moreH/moreA",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加就诊",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/hospital/moreH/moreG",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "门诊科室",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/hospital/moreH/moreL",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约历史",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/hospital/moreH/moreX",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/house/house",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "找房子",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FFA755"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/house/moreHo/moreHo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "房源详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FFA755"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/danJ/danJ",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧党建",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/danJ/moreDJH/moreDJH",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/danJ/Dystudy/Dystudy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "党员学习",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/danJ/moreJY/moreJY",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "建言献策",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/danJ/moreSSP/moreSSP",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "随手拍",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/danJ/moreHD/moreHD",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "组织活动",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/danJ/moreDT/moreDT",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "党建动态",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/danJ/Dystudy/moreKC",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课程详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/danJ/moreHD/moreHDX",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "活动详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/allservice/allservice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "全部服务",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/yuyuCar/yuyuCar",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "立即预约",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00dee5"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/yuyuCar/moreXZ/moreXZ",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约须知",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00dee5"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/yuyuCar/moreWD/moreWD",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的预约",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00dee5"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/yuyuCar/moreCL/moreCL",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "车辆管理",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00dee5"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/yuyuCar/moreCL/moreTJC",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加车辆",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00dee5"
+					}
+				}
+            }
+            
+        },
+		{
+            "path" : "pages/service/yuyuCar/moreCL/moreXGC",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改车辆",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00dee5"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/yuyuCar/moreXZ/moreYY",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约检车",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00dee5"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/metro/metro",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/metro/moreDXQ/moreDXQ",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "线路详情",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/metro/moreDXQ/moreM",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "地铁总览",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/park/park",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/park/moreP/moreP",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车场详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00dee5"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/park/moreP/moreT",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车记录",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00dee5"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/movecar/movecar",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "堵车移车",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/bus/bus",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧巴士",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/bus/moreBX/moreBX",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "巴士详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/bus/moreBX/moreBDD",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单设置",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/bus/moreBX/moreBTJ",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提交",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/job/job",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "找工作",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FFA755"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/job/moreNJL/moreNJL",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的简历",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FFA755"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/job/moreNJL/moreAJL",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改简历",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FFA755"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/job/moreVN/moreVN",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "招聘详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FFA755"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/traffic/traffic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "违章查询",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00dee5"
+					}
+				}                                                                                                                                                                     
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/traffic/moreTCX/moreTCX",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "违章列表",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00dee5"
+					}
+				} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/traffic/moreTCX/moreTWXQ",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "违章详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00dee5"
+					}
+				} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/living/living",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/living/moreHH/moreHH",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "户号管理",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/living/moreHH/moreNH",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加户号",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/living/moreSD/moreSD",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "缴纳水费",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/living/moreSD/moreDF",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "缴纳电费",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHHB/ZHHB",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧环保",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHHB/moreZL/moreZL",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "回收种类",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHHB/moreYL/moreYL",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "信息预留",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHHB/moreHBL/moreHBL",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约历史",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHHB/moreFHS/moreFHS",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "附近回收机",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/JZFP/JZFP",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "精准扶贫",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHYL/ZHYL",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧养老",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHSQ/ZHSQ",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧社区",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHYL/moreYJG/moreYJG",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "养老机构",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHYL/moreYJG/moreYLYJJ",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "养老院简介",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHYL/moreYJG/moreLYY",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "养老院预约",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHYL/moreRZ/moreRZ",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "入住详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHYL/moreXC/moreXC",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务巡检",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHYL/morePG/morePG",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "健康评估",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0080f0"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHYL/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "测试",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/JZFP/moreFB/moreFB",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "案例发布",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/JZFP/moreCQCM/moreCQCM",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "村情村貌",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/JZFP/moreCQCM/morePKCXQ",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "贫困村详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/JZFP/moreQZ/moreQZ",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收到求助",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/JZFP/moreZH/moreZH",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "住户走访",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/JZFP/moreZH/moreZHXQ",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "住户详情",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#F62D59"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHSQ/moreTZNR/moreTZNR",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "通知内容",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHSQ/moreWY/moreWY",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物业服务",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHSQ/moreKJ/moreKJ",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "快件管理",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHSQ/moreYLSJ/moreYLSJ",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "友邻社交",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHSQ/moreCL/moreCL",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "车辆管理",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHSQ/moreWY/moreWYZX",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物业服务中心",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHSQ/moreWY/moreTCW",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车位服务中心",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHSQ/moreWY/moreBM",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "便民服务",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/ZHSQ/moreWY/morePJFK",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评级反馈",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#22c876"
+					}
+				}
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [
+			{
+				"iconPath": "static/icons/home.png",
+				"selectedIconPath": "static/icons/home_act.png",
+				"text": "主页",
+				"pagePath": "pages/home/home"
+			},
+			{
+				"iconPath": "static/icons/all.png",
+				"selectedIconPath": "static/icons/all_act.png",
+				"text": "全部服务",
+				"pagePath": "pages/service/allservice/allservice"
+			},
+			{
+				"iconPath": "static/icons/news.png",
+				"selectedIconPath": "static/icons/news_act.png",
+				"text": "新闻",
+				"pagePath": "pages/service/news/news"
+			},
+			{
+				"iconPath": "static/icons/user.png",
+				"selectedIconPath": "static/icons/user_act.png",
+				"text": "用户",
+				"pagePath": "pages/service/user/user"
+			}
+		]
+	}
+}
